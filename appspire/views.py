@@ -15,3 +15,6 @@ def gallery(request):
 
 def testgallery(request):
         return render(request,'gallery1col.html')
+
+def post(request):
+        return render(request,'post.html')

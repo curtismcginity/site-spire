@@ -216,7 +216,11 @@ header.masthead {
       font-size: 55px; }
     header.masthead .post-heading .subheading {
       font-size: 30px; } }
-
+  #head-rule {
+      max-width: 300px;
+      margin: 15px auto;
+      border-width: 4px;
+      border-color: white; }
 .post-preview > a {
   color: #333333; }
   .post-preview > a:focus, .post-preview > a:hover {
@@ -228,6 +232,11 @@ header.masthead {
     margin-bottom: 10px; }
   .post-preview > a > .post-subtitle {
     font-weight: 300;
+    margin: 0 0 10px; }
+  .post-preview > a > .post-blurb {
+    font-size: 20px;
+    font-weight:  300;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     margin: 0 0 10px; }
 
 .post-preview > .post-meta {

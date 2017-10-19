@@ -27,6 +27,7 @@ urlpatterns = [
     url(r'^dr',v.about, name='dr'),
     url(r'^testgallery',v.testgallery, name='gallery2'),
     url(r'^gallery',v.gallery, name='gallery'),
+    url(r'^post',v.post, name='post'),
 ]
 
 urlpatterns += staticfiles_urlpatterns()
