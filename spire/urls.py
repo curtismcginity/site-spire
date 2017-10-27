@@ -22,11 +22,12 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$',v.index, name='landing'),
     url(r'^home',v.index, name='home'),
+    url(r'^blog',v.index, name='blog'),
     url(r'^about',v.about, name='about'),
     url(r'^contact',v.contact, name='contact'),
     url(r'^dr',v.about, name='dr'),
     url(r'^testgallery',v.testgallery, name='gallery2'),
-    url(r'^gallery',v.gallery, name='gallery'),
+    url(r'^research',v.research, name='research'),
     url(r'^post',v.post, name='post'),
 ]
 

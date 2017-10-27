@@ -10,8 +10,8 @@ def about(request):
 def contact(request):
         return render(request,'contact.html')
 
-def gallery(request):
-        return render(request,'gallery.html')
+def research(request):
+        return render(request,'research.html')
 
 def testgallery(request):
         return render(request,'gallery1col.html')
