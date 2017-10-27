@@ -53,6 +53,12 @@ blockquote {
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px; }
 
+p.blurb {
+  font-size: 20px;
+  font-weight:  300;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0 0 10px; }
+
 ::-moz-selection {
   color: white;
   background: #0085A1;

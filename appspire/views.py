@@ -13,6 +13,12 @@ def contact(request):
 def research(request):
         return render(request,'research.html')
 
+def consulting(request):
+        return render(request,'consulting.html')
+
+def initiatives(request):
+        return render(request,'initiatives.html')
+
 def testgallery(request):
         return render(request,'gallery1col.html')
 

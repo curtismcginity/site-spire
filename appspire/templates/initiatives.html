@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Dr. Curtis McGinity | Art of Optimal</title>
+    <title>Dr. Curtis McGinity | Initiatives</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
@@ -29,6 +29,7 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <!-- #check navbar-custom shows header on scroll direction change -->
       <div class="container">
         <a class="navbar-brand" href="home">Curtis McGinity, PhD</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,23 +55,25 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about">About</a>
-            </li>         
+            </li>        
           </ul>
         </div>
       </div>
     </nav>
 
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url('static/img/amazon-hanging-out2.jpg')">
-    <!-- #check masthead not fixed, depends on pic size -->
+    <header class="masthead" style="background-image: url('static/img/hbp/bgHuman2.jpg')"> <!-- diss/diffs2_hood-st_3d.pdf')"> -->
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
-            <div class="site-heading">
-              <h1>Art of Optimal</h1>
+            <div class="page-heading">
+              <h1>~Carousel~</h1>
               <hr id="head-rule">
               <span class="subheading">
-                Adventures in the art of the science of lifestyle optimization
+                Smart systems:
+                Learning while doing.
+                <br>
+                Optimally.
               </span>
             </div>
           </div>
@@ -80,68 +83,67 @@
 
     <!-- Main Content -->
     <div class="container">
+      <h2>Human Optimization Project</h2>
+      <p>
+        My research is focused on <b>optimal learning</b>: the intersection of statistical machine learning and sequential decision-making.
+
+        My work intersects the fields of
+        <ul>
+          <li><a href="https://en.wikipedia.org/wiki/Reinforcement_learning">Reinforcement learning</a>,</li>
+          <li><a href="https://en.wikipedia.org/wiki/Bayesian_optimization">Bayesian optimization</a>,</li>
+          <li><a href="https://en.wikipedia.org/wiki/Optimal_design">Optimal design of experiments</a>,</li>
+          <li><a href="https://en.wikipedia.org/wiki/Dynamic_programming">Approximate dynamic programming</a>,</li>
+          <li><a href="https://en.wikipedia.org/wiki/Markov_decision_process">Markov decision processes</a>,</li>
+          <li><a href="https://en.wikipedia.org/wiki/Robust_optimization">Robust optimization</a>.</li>
+          <!-- <li><a href="https://en.wikipedia.org/wiki/Design_of_experiments#Optimal_designs_for_regression_models">Sequential design of experiments</a>.</li> -->
+        </ul>
+
+        <!-- approximate dynamic programming (ADP),-->
+        <!--sequential design of experiments,-->
+        <!--statistical inference,-->
+        <!--information geometry,-->
+        <!--information theory, and-->
+        <!--risk-sensitive stochastic optimization,-->
+
+
+        I am interested in designing algorithms for simultaneously optimizing the performance and learning the dynamics of systems shrouded in uncertainty and randomness &mdash; all while mitigating the risk prohibitive for real-world application.<!-- stocasticity --> 
+      </p>
+      
+      <hr>
+
+      <!-- Page Heading -->
+      <h1 class="my-4">Research Projects &mdash;
+        <small>Overview</small>
+      </h1>
+
+      <!-- Project One -->
       <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="col-md-7">
+          <!-- #check would prefer slider here, multiple images -->
+          <a href="post">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="static/img/diss/mmdplot.jpg" alt="" width=""> <!-- diffs2_hood-st_3d.jpg" alt=""> -->
+          </a>
+        </div>
+        <div class="col-md-5">
           <div class="post-preview">
-            <a href="post.html">
-              <h2 class="post-title">
-                Man must explore, and this is exploration at its greatest
-              </h2>
-              <h3 class="post-subtitle">
-                Problems look mighty small from 150 miles up
-              </h3>
+            <a href="post">
+              <h3>Optimal Learning via Dynamic Risk</h3>
+              <p class="post-blurb">
+                Should you stick with what works, or try something new and potentially better&mdash;but maybe worse?
+                <br>
+                How do you navigate the edge between the known and the unknown?
+                <br>
+                This deep dilemma arises in virtually every context, from medicine to finance, ecommerce to R&amp;D&mdash;to life itself.
+              </p>
             </a>
-            <p class="post-meta">Posted by
-              <a href="#">Start Bootstrap</a>
-              on September 24, 2017</p>
           </div>
-          <hr>
-          <div class="post-preview">
-            <a href="post.html">
-              <h2 class="post-title">
-                I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
-              </h2>
-            </a>
-            <p class="post-meta">Posted by
-              <a href="#">Start Bootstrap</a>
-              on September 18, 2017</p>
-          </div>
-          <hr>
-          <div class="post-preview">
-            <a href="post.html">
-              <h2 class="post-title">
-                Science has not yet mastered prophecy
-              </h2>
-              <h3 class="post-subtitle">
-                We predict too much for the next year and yet far too little for the next ten.
-              </h3>
-            </a>
-            <p class="post-meta">Posted by
-              <a href="#">Start Bootstrap</a>
-              on August 24, 2017</p>
-          </div>
-          <hr>
-          <div class="post-preview">
-            <a href="post.html">
-              <h2 class="post-title">
-                Failure is not an option
-              </h2>
-              <h3 class="post-subtitle">
-                Many say exploration is part of our destiny, but it’s actually our duty to future generations.
-              </h3>
-            </a>
-            <p class="post-meta">Posted by
-              <a href="#">Start Bootstrap</a>
-              on July 8, 2017</p>
-          </div>
-          <hr>
-          <!-- Pager -->
-          <div class="clearfix">
-            <a class="btn btn-secondary float-right" href="#">Older Posts &rarr;</a>
-          </div>
+          <!-- <a class="btn btn-primary" href="post">View Project</a> -->
         </div>
       </div>
+      <!-- /.row -->
+
     </div>
+    <!-- /.container -->
 
     <hr>
 
@@ -152,7 +154,7 @@
           <div class="col-lg-8 col-md-10 mx-auto">
             <ul class="list-inline text-center">
               <li class="list-inline-item">
-                <a href="#">
+                <a href="https://twitter.com/crescent_curtis">
                   <span class="fa-stack fa-lg">
                     <i class="fa fa-circle fa-stack-2x"></i>
                     <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -160,15 +162,15 @@
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="#">
+                <a href="https://linkedin.com/in/curtis-mcginity-60647031">
                   <span class="fa-stack fa-lg">
                     <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
                   </span>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="#">
+                <a href="https://github.com/curtismcginity">
                   <span class="fa-stack fa-lg">
                     <i class="fa fa-circle fa-stack-2x"></i>
                     <i class="fa fa-github fa-stack-1x fa-inverse"></i>

@@ -23,11 +23,13 @@ urlpatterns = [
     url(r'^$',v.index, name='landing'),
     url(r'^home',v.index, name='home'),
     url(r'^blog',v.index, name='blog'),
+    url(r'^research',v.research, name='research'),
+    url(r'^consulting',v.consulting, name='consulting'),
+    url(r'^initiatives',v.initiatives, name='initiatives'),
     url(r'^about',v.about, name='about'),
     url(r'^contact',v.contact, name='contact'),
     url(r'^dr',v.about, name='dr'),
     url(r'^testgallery',v.testgallery, name='gallery2'),
-    url(r'^research',v.research, name='research'),
     url(r'^post',v.post, name='post'),
 ]
 
